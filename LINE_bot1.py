@@ -6,7 +6,7 @@ from datetime import datetime, timedelta, timezone
 # 日本時間（UTC+9）
 JST = timezone(timedelta(hours=9))
 
-TOKEN = "3aOkPW3pzGhHqSR0gPOofifBDM8kMRAVZneAmE8bYEUcxh1fLxsOX8ReMWXVOAsfFGvsyKpRziU54PIG56"
+TOKEN = "3aOkPW3pzGhHqSR0gPOofifBDM8kMRAVZneAmE8bYEUcxh1fLxsOX8ReMWXVOAsfFGvsyKpRziU54PIG56+1y46R9zm7G1Z7VQ/E3uMTR4fdel5+Xub+ZeJ9BfwiWa+Dcfc6Ois26bfIBy3zBk0TuQdB04t89/1O/w1cDnyilFU="
 url = "https://api.line.me/v2/bot/message/broadcast"
 headers = {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}
 
